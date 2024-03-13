@@ -1,0 +1,36 @@
+	Feature: Responder mensaje recibido
+
+		Como empleado de la empresa
+
+		Quiero poder enviar un mensaje de texto a otro empleado
+
+		Para responder un mensaje un chat con un compañero.
+
+	Scenario: Usuario responde a un mensaje recibido
+
+		Given que estoy autenticado en el sistema con mi usuario y contraseña corporativa
+
+		When selecciono el mensaje para ver su contenido
+
+		And redacto una respuesta con un contenido valido de menos de 512 caracteres
+
+		And presiono el boton de enviar respuesta
+
+		Then el mensaje de respuesta se envia correctamente
+
+		And el remitente recibe una notificacion de la respuesta
+
+	Scenario: Usuario responde a un mensaje recibido
+
+		Given que estoy autenticado en el sistema con mi usuario y contraseña corporativa
+
+		When selecciono el mensaje para ver su contenido
+
+		And redacto una respuesta con un contenido invalido con mas de 512 caracteres
+
+		And presiono el boton de enviar respuesta
+
+		Then el mensaje de respuesta no se envia correctamente
+
+		And el receptor recibe un mensaje de de advertencia
+	

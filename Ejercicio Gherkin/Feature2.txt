@@ -1,0 +1,31 @@
+	Feature: Enviar primer mensaje a usuario
+
+¿		Como empleado de la empresa
+
+		Quiero poder enviar un mensaje de texto a otro empleado
+
+		Para iniciar un chat con un compañero.
+
+	Scenario: Usuario inicia un chat
+
+		Given que estoy autenticado en el sistema con mi usuario y contraseña corporativa
+
+		When el usuario envia un mensaje de texto
+
+		And redacto una respuesta con un contenido valido con menos de 512 caracteres
+
+		Then el mensaje se envia correctamente
+ 
+		And el destinatario recibe una notificacion de nuevo mensaje
+
+	Scenario: Usuario inicia un chat
+
+		Given que estoy autenticado en el sistema con mi usuario y contraseña corporativa
+
+		When el usuario envia un mensaje de texto
+
+		And redacto una respuesta con un contenido invalido con mas de 512 caracteres
+
+		Then el mensaje no se envia correctamente
+ 
+		And el destinatario no recibe una notificacion de nuevo mensaje

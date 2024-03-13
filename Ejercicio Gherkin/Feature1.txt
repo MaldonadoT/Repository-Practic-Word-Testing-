@@ -1,0 +1,52 @@
+	Feature: Ingreso a la aplicacion de mensajeria
+
+		Como empleado de la empresa
+
+		Quiero entrar con mi cuenta 
+
+		Para utilizar la aplicacion
+
+
+	Scenario: Usuario válido
+
+		Given mi usuario ya esta registrado
+
+		And su nombre de usuario es "dlopez"
+
+		And su contraseña es "Repo12"
+
+		When ingreso el nombre de usuario válido
+
+		And ingreso la contraseña válida
+
+		Then el usuario puede utilizar la aplicación
+
+	Scenario: Usuario inválido
+
+		Given su usuario ya esta registrado
+
+		And su nombre de usuario es "dlopez"
+
+		And su contraseña es "Repo12"
+
+		When ingresó el nombre de usuario inválido
+
+		And ingresó la contraseña válida
+
+		Then el usuario no puede utilizar la aplicación todavia
+
+
+	Scenario: Usuario inválido
+
+		Given su usuario ya está registrado
+
+		And su nombre de usuario es "dlopez"
+
+		And su contraseña es "Repo12"
+
+		When ingresó el nombre de usuario válido
+
+		And ingresó la contraseña inválida
+
+		Then el usuario puede utilizar la aplicación todavia
+
