@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5f205286-e0b4-429e-af27-b433830200d9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81c37213-5aad-46e6-ac33-5153f2275be3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2c106ae-4106-4911-9c97-2d4815b4f71c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea6ae635-e925-4fdd-9034-58b887702d26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>es el lado A</description>
+      <id>81c37213-5aad-46e6-ac33-5153f2275be3</id>
+      <masked>false</masked>
+      <name>ladoA</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>es el lado B</description>
+      <id>d2c106ae-4106-4911-9c97-2d4815b4f71c</id>
+      <masked>false</masked>
+      <name>ladoB</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description>es el lado C</description>
+      <id>ea6ae635-e925-4fdd-9034-58b887702d26</id>
+      <masked>false</masked>
+      <name>ladoC</name>
+   </variable>
 </TestCaseEntity>

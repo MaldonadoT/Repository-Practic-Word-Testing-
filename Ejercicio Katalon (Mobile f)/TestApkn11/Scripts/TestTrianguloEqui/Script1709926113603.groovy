@@ -22,11 +22,11 @@ Mobile.startApplication('C:\\Users\\Usuario\\Desktop\\Curso Testing Master QA\\U
 
 Mobile.tap(findTestObject('Object Repository/ObjTestTriangulo/android.widget.Button - Triangulo'), 0)
 
-Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText'), '1', 0)
+Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText'), ladoA, 0)
 
-Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText (1)'), '1', 0)
+Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText (1)'), ladoB, 0)
 
-Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText (2)'), '1', 0)
+Mobile.setText(findTestObject('Object Repository/ObjTestTriangulo/android.widget.EditText (2)'), ladoC, 0)
 
 Mobile.tap(findTestObject('Object Repository/ObjTestTriangulo/android.widget.Button - Calcular'), 0)
 
