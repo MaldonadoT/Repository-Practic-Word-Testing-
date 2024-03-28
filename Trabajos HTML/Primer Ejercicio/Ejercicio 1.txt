@@ -1,0 +1,6 @@
+<html>
+<h1>Internet y la world wide web
+<P><font face=arial><font size=4>World wide web(WWW)o Red Informatica mundial es un sistema de distribucion de informacion basado en hipertexto o hipermedios enlazados y accesibles a travez de internet. <font face=courier new>Con un navegador web, un usuario visualiza sitios web compuestos de paginas web que pueden contener texto, imagenes, videos u otros conteidos multimedia, y navega a traves de ellas usando hiperenlaces
+<P>Red de Area Metropolitana (MAN):Las redes de Area metropolitanas estan <BR>diseñadas para la conexion de equipos a lo largo de una ciudad entera.Una red <BR>MAN puede ser una unica red que interconecte varias redes de area local LANs <BR>resultando en una red mayor. Por ello, una MAN puede ser propiedad <BR>exclusivamente de una misma compañia privada, o puede ser una red de servicio <BR>publico que conecte redes publicas y privadas.
+</font>
+</P>

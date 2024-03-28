@@ -1,0 +1,193 @@
+<html>
+<h1 align="center"><font size="99" color=""><big><em>Carpeta de Diseño Web Estàtica</em></big></font></h1>
+<br></br>
+<h1 align="center"><font size="7" color=""><u>Introduccion a Html</u></font></h1>
+<p align="center"><font size="5,5" color=""> -El html es el lenguaje utilizado para representar documentos en la web.Ademas de texto normal incluye tambien, elementos multimedia(gràfico,video,audios)yextisten enlaces(link)que permiten saltar a otras partes del documento o a otro sitio cualquiera de internet.<br>
+ -Las etiquetas constituyen la filosofia de este lenguaje por ellas se pueden controlar los elementos tipograficos del texto:tipo,color y tamaño de las fuentes, el estilo(negrita,cursiva,etc)asi tambien la inclucion de tablas,listas, formularios,la insercion de fotos, sonidos.<br>
+ -Las etiquetas se pueden modificar por medio de sus atributos. El nombre de las etiqueta y sus atributos, se colocan entre sus simbolos <> y normalmente se usan 2, una de inicio y otra final, para conseguir el efecto deseado
+</p>
+<h2 align="center"><font size="6" color="">Estructura de un documento html</font></h2>
+<p align="center"><font size="5,5" color="">-Todos los documentos html tienen la estructura que se muestra a continuacion: <br>
+&lt;html&gt;<br>
+&lt;head&gt; <br>
+&lt;title&gt;<br>
+Titulo de la pagina<br>
+&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+Contenido de la pagina<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br></p>
+<h2 align="center"><font size="6" color="">Manipulacion de fuentes</font></h2>
+<p align="center"><font size="5,5" color="">-Etiquetas para titulos<br>
+&lt;h1&gt;Titulo&lt;/h1&gt;<br>
+&lt;h2&gt;Titulo&lt;/h2&gt;<br>
+Hasta<br>
+&lt;h6<Titulo>/h6&gt;<br></p>
+<h1 align="center"><font size="7" color=""><u>Estilos de fuente</u></font></h1>
+<p align="center"><font size="5,5" color="">-Etiquetas<br>
+&lt;B&gt;<b>Texto en negrita</b>&lt;/B&gt;<br>
+&lt;I&gt;<i>Italica</i>&lt;/I&gt;<br>
+&lt;U&gt;<u>Subrayado</u>&lt;/U&gt;<br>
+&lt;EM&gt;<em>Enfatizado</em>&lt;/EM&gt;<br>
+&lt;STRONG&gt;<strong>Fuerte</strong>&lt;/STRONG&gt;<br>
+&lt;BIG&gt;<big>Texto Grande</big>&lt;/BIG&gt;<br>
+&lt;SMALL&gt;<small>Texto Pequeño</small>&lt;/SMALL&gt;<br>
+&lt;SUB&gt;<sub>Subindice</sub>&lt;/SUB&gt;<br>
+&lt;SUP&gt;<sup>Superindice</sup>&lt;/SUP&gt;<br>
+&lt;STRIKE&gt;<strike>Texto Tachado</strike>&lt;/STRIKE&gt;<br>
+<p align="left"><font size="5,5" color="">-No solo se puede modificar el aspecto del texto, sino que tambien se puede modificar el tamaño, color o tipo de fuente.
+&lt;FONT&gt; &lt;/FONT&gt; Permite cambiar el aspecto. Esta etiqueta tiene varios atributos. Las etiquetas le indican al navegador que realizar y los atributos le indican como hacerlo<br>
+&lt;FONT SIZE&gt; Permite cambiar el tamaño de la letra con tamaño que van desde 1 (muy pequeño) a 7 (muy grande).<br>
+-Ej:&lt;FONT SIZE="6"><FONT SIZE="6">Tamaño</FONT>&lt;/FONT&gt;<br>
+&lt;FONT FACE&gt; Permite cambiar el tipo de letra. Hay que tener en cuenta que la computadora deberà tener instalada esta fuente, sino el navegador usara el tipo de letrapor defecto(Fymes new roman)
+haciendo que el aspecto de la misma sea imprevisible<br>
+-Ej: &lt;FONT FACE="arial,Helvetica,Licida"&gt; &lt;/FONT&gt;<br>
+&lt;FONT COLOR&gt;Permite cambiar el color del texto. Hay algunos colores predefinidos como el black,yellow,green,etc<br>
+-Ej:&lt;FONT COLOR=YELLOW&gt;<FONT COLOR=YELLOW>YELLOW</font> &lt;/FONT&gt; &lt;FONT COLOR="#0000FF"&gt;<FONT COLOR="#0000FF">Azul</font> &lt;/FONT&gt;<br>
+&lt;BR&gt; Introduce salto de linea. Esta etiqueta no tiene su correspondiente cierre.<br>
+&lt;P&gt; &lt;/P&gt; Si se quiere establecer un parrafose utiliza esta etiqueta donde todo lo que este en estas etiquetas constituye un unico parrafo. Con esta etiqueta se puede utilizar el atributo Aling.<br>
+-Ej: &lt;P align=left&gt;a la izquierda&lt;/P&gt; &lt;P align=Center&gt;al centro&lt;/P&gt; &lt;P align=rigth&gt;a la derecha&lt;/P&gt; &lt;P align="justify"&gt;justificado&lt;/P&gt;<br>
+<h1 align="center"><font size="7" color=""><u>Listas</u></font></h1>
+<p align="center"><font size="5,5" color="">Con frecuencia se usan listas en los documentos.El lenguaje html incorpora unas listas con viñetas sencillas o tambien letras o numeros. <br>
+Vamos a ver algunas posibilidades que tenemos:</br></p>
+<p align="center"><font size="5,5" color="">
+<div><span style="float:right"><h2><font size="6" color="">Se vera como:</font></h2>
+<ul><li>Primer termino de la lista
+<li>Segundo termino de la lista
+<li>Tercer termino de la lista
+</ul></span>
+<h2 align=left><font size="6" color="">Listas con viñetas desordenadas</font></h2>
+&lt;UL&gt;<br>
+&lt;LI&gt; Primer termino de la lista<br>
+&lt;LI&gt; Segundo termino de la lista<br>
+&lt;LI&gt; Tercer termino de la lista<br>
+&lt;/UL&gt;</div></br></p>
+<p align="center"><font size="5,5" color="">La lista se declara con la etiqueta UL y finaliza con el cierre de la misma /UL. <br>Tambien se pueden modificar las viñetas por medio del atributo Type=circle, disc o square (circulo,disco o cuadrado) y añadir sublistas</p>
+<div><span style="float:right"><ul><li type=disc>Primer termino de la lista</ul>
+<ul><li type=circle>Segundo termino de la lista</ul>
+<ul><li type=square>Tercer termino de la lista</ul></span>&lt;UL&gt;<br>
+&lt;LI type=disc&gt;Primer termino<br>
+&lt;/UL&gt;<br>
+&lt;Li&gt;Sublista<br>
+&lt;Li type=circle&gt;Segundo termino<br>
+&lt;/UL&gt;<br>
+&lt;UL&gt;<br>
+&lt;LI type square&gt;Tercer termino<br>
+&lt;/UL&gt;<br></div>
+<h2 align=center><font size="6" color="">Listas con viñetas ordenadas</font></h2>
+<p align="center"><font size="5,5" color="">Estas listas se caracterizan porque aparecen numeros o ciertos caracteres que ordenan sus elementos.<br>
+La etiqueta usada es &lt;OL&gt; junto con su correspondiente cierre &lt;/OL&gt;<br>
+El atributo Type toma ahora los valores 1, a, A, i, I.<br></p>
+<div><span style="float:right"><h2 align=left><font size="6" color="">Se vera como:</font></h2><br>
+<ol type=i>
+<li>Primer termino de la lista<br>
+<li>Segundo termino de la lista<br>
+<li>Tercer termino de la lista<br>
+<li>Cuarto termino de la lista<br>
+<li>Quinto termino de la lista<br>
+</ol></span><h2 align=left><font size="6" color="">Escribimos en html</font></h2><br>
+&lt;OL Type=i&gt;<br>
+&lt;LI&gt;Primer termino de la lista<br>
+&lt;LI&gt;Segundo termino de la lista<br>
+&lt;LI&gt;Tercer termino de la lista<br>
+&lt;LI&gt;Cuarto termino de la lista<br>
+&lt;LI&gt;Quinto termino de la lista<br>
+&lt;/OL&gt;</div>
+<h2 align=center><font size="6" color="">Listas de Definicion</font></h2>
+<p align="center"><font size="5,5" color="">Estas listas se forman con el elemento que se define y su definicion.Las etiquetas son &lt;DL&gt; y &lt;/DL&gt; para la lista y &lt;DT&gt; y&lt;DD&gt;.<br></p>
+<div><span style="float:right"><h2 align=left><font size="6" color="">Se vera como:</font></h2><br>
+<dl>
+<dt>Termino 1º
+<dd>Definicion del elemento 1º
+<dt>Termino 2º
+<dd>Definicion del elemento 2º
+<dt>Termino 3º
+<dd>Definicion del elemento 3º
+</dl></span><h2 align=left><font size="6" color="">Escribimos en html</font></h2><br>
+&lt;DL&gt;<br>
+&lt;DT&gt;Termino 1º<br>
+&lt;DD&gt;Definicion del elemento 1º<br>
+&lt;DT&gt;Termino 2º<br>
+&lt;DD&gt;Definicion del elemento 2º<br>
+&lt;DT&gt;Termino 3º<br>
+&lt;DD&gt;Definicion del elemento 3º<br>
+&lt;/DL&gt;<br></div>
+<p align="left"><font size="5,5" color="">El atributo start de la etiqueta &lt;OL&gt; permite controlar el numero con que empieza una lista enumerada.<br>
+&lt;OL star=21&gt;<br>
+&lt;LI&gt;Teclado<br>
+&lt;LI&gt;Mouse<br>
+&lt;LI&gt;Escaner<br>
+&lt;/OL&gt;<br>
+El atributo value de la etiqueta &lt;LI&gt; permite modificar un valor en cualquier posicion de la lista, permitiendo saltar algunos valores que no se deseen<br>
+&lt;OL&gt;<br>
+&lt;LI&gt;Teclado<br>
+&lt;LI valve=5&gt;House<br>
+&lt;LI&gt;Escaner<br>
+&lt;/OL&gt;<br>
+<h2 align=center><font size="7" color=""><u>Enlaces</u></font></h2><br>
+<center>Probablemente las caracterisiticas que mas ha influido, en el espectacular desarrollo de la web han sido los enlases (link).Un enlace aarece generalmente como un texto azul subrayado y cuando situamos al cursor sobre èl se transforma en una mano con el dedo indice extendido.Si pulsamos sobre el enlace saltamos a otra parte del documento, a otro documeto situado en otro lugar, o incluso se abre el programa de correo para enviar un ensaje a la direccion indicada.<br>
+&lt;A href="VRL"&gt;Texto de enlace&lt;/A&gt;<br>
+Ej:&lt;A href="http//netspace.com"&gt;Netspace&lt;/A&gt;<br>
+El texto del enlace es lo que se visualizara en el navegador. La URL es la direccion donde se apunta el enlace y puede ser de estos tipos:<br>
+<h2 align=center><font size="6" color="">Enlace a otro lugar del mismo documento</font></h2><br>
+En este caso la URL se sustituye por un marcador en la misma pagina. El marcador pueda ser texto colocado al lugar al que queremos saltar. No importa lo que sea ya que no se verà.<br>
+Ej: Para saltar al inicio de una pagina. Se debe escribir en el lugar de que queremos saltar.<br>
+&lt;A name="inicio"&gt; &lt;/A&gt;<br>
+Una vez escrito esto y guardada la pagina veriamos al abrirla como el navegador IR al inicio. Al pulsar sobre ella nos llevaria al principo de la pagina, ya que fue alli donde coloque el marcador<br>
+<h2 align=center><font size="6" color="">Enlace a otra pagina local</font></h2><br>
+En este caso la URL se dara de forma negativa.Ej si tenemos dos paginas en el mismo directorio pagina 1 HTML y pagina 2 HTML y queremos poner un enlace desde la pagina 1 a la pagina 2 debemos escribir &lt;A href:"pagina2.html"&gt;ir a pagina2&lt;/A&gt;. Con esto es suficiente, no hay que crear ningun marcador a no ser que se quiera ir a un sitio concreto en la pagina2.html. En ese caso habria que colocar en el sitio en donde se quiera llegar en la pagina2html &lt;A name="sitio"&gt; &lt;/A&gt; y en la pagina1html &lt;A href="pagina2.html"&gt;ir a sitio de la pagina 2&lt;/A&gt;. tambien se puede cargar una pagina local, para ello hay que indicar el archivo HTML que se quiera cargar y el camino para llegar a ello.<br>
+<h2 align=center><font size="6" color="">Enlace a una direccion de internet</font></h2><br>
+Ej:&lt;A href="http//www.netscape.com"&gt;Netscape&lt;/A&gt; nos lleva a la pagina de netscape.<br>
+<h2 align=center><font size="6" color="">Enlace a una direccion de correo</font></h2><br>
+Ej: &lt;A href="mail to:noombre@servidor.com"&gt;"web master"&lt;/A&gt; que se ce como ... nombre@servidor.com, que si se lo pulsa se abre el programa de correo configurado con la direccion en el campo correspondiente.<br>
+<h2 align=center><font size="6" color="">Enlace para descargar un fichero</font></h2><br>
+En laURL se pone la punta donde esta el fichero. Por ej para descargar un fichero de nombre html.zip se debe colocar &lt;A href=".../zip/html.zip"&gt;Tutorial.zip&lt;/A&gt; que se veria asi tutorial.zip. Si se pulsa sobre el, se abrira una ventana avisando de una descarga de archivos y preguntando que desea hacer.<br>
+<h2 align=center><font size="6" color="">Enlace que se abre de una nueva ventana</font></h2><br>
+Si quieres que la pagina a enlazar aparezca en una nueva ventana del navegador, solamente tienes que pones TERGET="nombre" como atributo de enlace, es decir:&lt;A href="index.html" target="nueva"&gt;Indice&lt;/A&gt; que se vera como indice.<br>
+<h2 align=center><font size="6" color="">Vincular a imagenes y videos y sonido</font></h2><br>
+Imagenes: Se etiqueta para incluir una imagen en la siguiente &lt;img src="URL"&gt;(no tiene etiqueta de cubre) donde URL es la direccion de la imagen. Otra forma &lt;img src="http://spaceart.com/solar/raw"&gt;<br><br></p>
+<h2 align=center><font size="7" color=""><u>Atributos de la imagen</u></font></h2><br>
+<p align="left"><font size="5,5" color="">
+Alt= Texto que aparece al situar el cursor sobre la imagen tambien muestra este mismo texto en caso de que el navegador no cargue la imagen.<br>
+Align= Indica la posicion de la imagen respecto del texto despues del signo igual pueden.<br>
+Top= Si queremos que el texto este aliniado con la parte superior de la imagen.<br>
+Middle= Alinea el texto con la parte central de la imagen.<br>
+Botton= Alinea el texto con la parte inferios de la imagen.<br>
+Left= Alinea la imagen a la izquierda de la pagina forzando la colocacion del texto en la parte derecha arriba.<br>
+Rigth= Alinea la imagen a la derecha de la pagina.<br>
+ Si se quiere interrumpir el proceso de rellenado del texto a los lados de la imagen, para que salte hasta debajo de ellos, es decir, dejas un espacio en blanco parcialmente, se pueden emplear las siguitenes extensiones de la etiqueta BR.<br>
+&lt;BR Clear=left&gt; Busca el primer margen libre (clear) a la izquierda<br>
+&lt;BR Clear=rigth&gt; Busca el primer margen libre (clear) a la derecha<br>
+&lt;BR Clear=all&gt; Busca el primer margen libre (clear) a ambos lados<br>
+Width=80 , Heigth=100. Indican la anchura y la altura de la imagen en pixeles, en este caso 80x100 pixeles.<br>
+Border= Añade un borde, a modo de marco, a la imagen.En este caso 2 pixeles.<br>
+Hspace=10, Vspace=15. Especifican el espacio horizontal y vertical que separa la imagen del texto que la rodea, en este caso 10 pixeles horizontales y 15 verticales.<br><br>
+Formato de imagen(caracteristicas)<br>
+Jpg=<ul align=left type=circle><li>Formato grafico de mapa bits
+<li>Soporte de color verdadero, tambien conocido por su homonimo inglas true color(24 bits)
+<li>Algoritmo de comprension que soporta altas tasas de empaquetado(1/20 y mas). El soporte de color verdadero de JPG nos ofrece la posibilidad de ofrecer imagenes con una profundidad de 16.777.216 colores. Esta claro que una mapa bitz con esta profundidad de colores alcanza tamaños de memoria descomunales, pero esto se suple con el agoritmo de comprension que ofrece al formato. Su principal ventaja es que permite la visualizacion pregresiva de imagenes.<br>
+</ul>
+<p align="left"><font size="5,5" color="">Bif= Una imagen GIF puede contenes de 2 a 256 colores(2,4,8,16,32,128,256) entres los 1618 millones disponibles en su paleta gracias a esta paleta, limitada en numeros de colores, el tamaño de las imagenes obtenidas coneste formato por lo general es muy pequeño. Sin embargo, ya que el algoritmo de comprension LZW esta patentado, tdos los editores de software que usan imagenes GIF deben pagar regalias a Unisys, la compañia propietarias de los derechos, esta es una de las razones por las que el formato PNG se esta volviendo cada vez mas popular, en detrimento del formato GIF.</p>
+<hr/>
+<h2 align=center><font size="7" color=""><u>Trabajos Practicos</u></font></h2><br>
+<h2 align=center><font size="6" color="">TP nº1</font></h2><br>
+<p align="left"><font size="5,5" color=""><ol align=left type=1><li>¿En que consiste la transmicion de datos, que tipos existen y cuales son los principales objetivos?
+<li>¿A que se denomino red de datos, como se diseño y constituye y cuales son las clases de redes de datos?
+<li>Definir que es el TCP/IP y los 5 niveles en los que se agrupan los protocolos
+<li>¿Que diferencia hay entre el TCP/IP y los TCP?
+<li>¿Que es el arpanet, idea central y cuales son las ventajas?
+<li><ol type=a><li>¿Que es un navegador web?<li>Hacer una tabla comparativa en los diferentes navegadores(internet explorer, firefox,opera,safari y google chrome)</ol>
+</ol></p>
+<p align="left"><font size="5,5" color=""><ol align=left type=1><li>El objetivo de la transmision de datos es la trasmicion de informacion entre 2 o mas putnos. Se dividen en 2 grupos<ol type=a><li>Transmision de datos local: Son a distancias pequeñas<li>Trasmision de datos remota: La distancia entre los equipos que se quieren comunicar es mucho mayor.</ol>
+<li>Red de Datos: Son aquellas infraestructura o redes de comunicacion que se ha diseñado especificamente de la trasmision de la informacion mediante el intercambio de datos. Se diseñan y construyen en arquitecturas para servir a su objetivo de uso.<br>Clases de datos:<ol type=a><li>Red de Area local(LAN):La mayoria son de propiedad privada de red limitada.<li>Red de area Metropolitana(MAN):Estan diseñadas para conectar equipos de toda una ciudad<li>Red de Area Extensa(WAN):Proporcionan informacion en grandes extensiones geograficas</ol>
+<li>Es el protocolo comun utilizado por todos los ordenadores conectados a internet, de manera que estos puedan comunicarse entre si<ol><li type=circle>Aplicacion:Inluyen protocolos destinados a proporcionar servicios tales como el correo electronico(SMTP).Transferencia de ficheros(FTP), conexion remota(TELNET) y (HTTP)<li type=circle>Transporte:Los protocolos de este nivel, tales como TCP Y UDP, se encargan de manejar los datos y proporcionar la finalidad necesaria en el transporte de los mismos<li type=circle>Internet: Incluye al protocolo IP; que se encarga de enviar los paquetes de informacion a sus destinos correspondientes<li type=circle>Fisico:Analo
+
+
+</br></p> 
+</html>
+<center>
+<&lt;&gt;>
+
+
+
