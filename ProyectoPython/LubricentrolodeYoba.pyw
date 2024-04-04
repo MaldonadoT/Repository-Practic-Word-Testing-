@@ -269,7 +269,7 @@ precioLabel2.grid(row=3, column=0, sticky="e", padx=10, pady=10)
 precioLabel2.config(bg="white", state="disabled", disabledforeground="black", justify="left", font=("Arial", "15"))
 
 #----------------Comienzo de Botones Vender y Comprar--------------------------
-
+"""
 botonComprar=Button(miFrame, text="Comprar", command=comprarStock)
 botonComprar.grid(row=5, column=0, sticky="e", padx=1, pady=1)
 botonComprar.config(bg="black", bd="5", cursor="hand2", relief="raised", foreground="white", activebackground="#C20808", font=("Arial Black", "10"))
@@ -277,8 +277,7 @@ botonComprar.config(bg="black", bd="5", cursor="hand2", relief="raised", foregro
 botonVender=Button(miFrame, text="Vender", command=limpiarCampos)
 botonVender.grid(row=5, column=1, sticky="e", padx=1, pady=1)
 botonVender.config(bg="black", bd="5", cursor="hand2", relief="raised", foreground="white", activebackground="#C20808", font=("Arial Black", "10"), justify="left")
-
-
+"""
 #----------------Comienzo de Botones Inntermedios--------------------------
 
 miFrame3=Frame(root, bg="#D00000", bd="5", relief="groove")
