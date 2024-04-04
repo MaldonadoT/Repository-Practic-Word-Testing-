@@ -1,0 +1,2 @@
+Es una aplicacion incompleta creada con la libreria Tktier, en la cual se selecciona la barra de tareas y seleccionamos "Conectar" para
+crear un archivo de base de datos SQL llamado "Productos" y luego podemos utilizar un CRUD para realizar un listado de productos segun sus caracteristicas.
